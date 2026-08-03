@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", "Bai Jamjuree", sans-serif;
+  --font-body: "DM Sans", "Sarabun", sans-serif;
+
+  /* Color Hunt: #ffc93c #07689f #40a8c4 #a2d5f2 */
+  --color-background: #f7fbfe;
+  --color-foreground: #06466d;
+  --color-card: #ffffff;
+  --color-card-foreground: #06466d;
+  --color-primary: #40a8c4;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #a2d5f2;
+  --color-secondary-foreground: #07689f;
+  --color-muted: #a2d5f2;
+  --color-muted-foreground: #3d7fa3;
+  --color-border: #b8dcf0;
+  --color-sky: #40a8c4;
+  --color-sky-deep: #07689f;
+  --color-sky-light: #a2d5f2;
+  --color-accent: #ffc93c;
+  --color-accent-foreground: #07689f;
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.5rem;
+}
+
+html[data-locale="th"] {
+  --font-display: "Bai Jamjuree", "Space Grotesk", sans-serif;
+  --font-body: "Sarabun", "DM Sans", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    color: var(--color-foreground);
+    background:
+      radial-gradient(ellipse 80% 50% at 10% -10%, color-mix(in srgb, #a2d5f2 70%, white), transparent),
+      radial-gradient(ellipse 55% 40% at 95% 0%, color-mix(in srgb, #ffc93c 35%, white), transparent),
+      var(--color-background);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    min-height: 100svh;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-accent) 55%, white);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.8s ease both;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
