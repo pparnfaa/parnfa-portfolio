@@ -94,7 +94,7 @@ export function Work() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-full border border-border bg-secondary px-4 py-1.5 text-sm font-medium text-secondary-foreground"
+                      className="rounded-full border border-border/60 bg-sky-light/35 px-4 py-1.5 text-sm font-medium text-sky-deep/80"
                     >
                       {tag}
                     </span>

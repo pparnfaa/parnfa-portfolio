@@ -43,7 +43,7 @@ export function About() {
             return (
               <div
                 key={skill.title}
-                className="flex items-start gap-4 rounded-2xl border border-border bg-card p-4 transition-colors hover:bg-secondary/60"
+                className="flex items-start gap-4 rounded-2xl border border-border bg-card p-4 transition-colors hover:bg-sky-light/35"
               >
                 <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-sky-light text-sky-deep">
                   <Icon className="h-5 w-5" />
