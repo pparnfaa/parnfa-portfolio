@@ -105,7 +105,7 @@ export const translations: Record<Locale, Dictionary> = {
         },
         {
           title: "Cloud & DevOps",
-          description: "Docker, GCP, Argo CD, PostgreSQL",
+          description: "Docker, GCP, Argo CD, PostgreSQL, MongoDB",
           icon: "cloud",
         },
       ],
@@ -127,7 +127,7 @@ export const translations: Record<Locale, Dictionary> = {
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: [],
+          tags: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
         },
         {
           id: "sx-expo",
@@ -138,7 +138,7 @@ export const translations: Record<Locale, Dictionary> = {
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: [],
+          tags: ["React", "Tailwind CSS", "GO (GIN)", "MongoDB"],
         },
         {
           id: "carbonmice",
@@ -149,7 +149,7 @@ export const translations: Record<Locale, Dictionary> = {
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: [],
+          tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
         },
         {
           id: "ktc",
@@ -160,7 +160,7 @@ export const translations: Record<Locale, Dictionary> = {
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: [],
+          tags: ["Kotlin", "Swift", "Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
         },
       ],
     },
@@ -172,8 +172,8 @@ export const translations: Record<Locale, Dictionary> = {
       location: "Bangkok, Thailand",
     },
     footer: {
-      rights: "© 2026 Parnfa Phathabannaporn (Pleng).",
-      tagline: "Building with curiosity & care.",
+      rights: "",
+      tagline: "",
     },
   },
   th: {
@@ -188,8 +188,8 @@ export const translations: Record<Locale, Dictionary> = {
       greeting: "สวัสดี!",
       nameHighlight: "ฉันชื่อ เพลง",
       intro:
-        "ชื่อจริงว่า {name} — Software Developer ที่ชอบสร้างซอฟต์แวร์อย่างใส่ใจ ด้วยความอยากรู้ ความรับผิดชอบ และการเรียนรู้อย่างต่อเนื่อง",
-      introName: "ปานฟ้า Phathabannaporn",
+        "ชื่อจริงว่า {name} - Software Developer ที่สนุกกับการเรียนรู้สิ่งใหม่ๆ ทำงานด้วยความใส่ใจและความรับผิดชอบ เพราะอยากเห็นชิ้นงานออกมาดีที่สุด!",
+      introName: "ปานฟ้า พฐาบัณพร",
       viewWork: "ดูผลงาน",
       contactMe: "ติดต่อกัน",
       cardName: "ปานฟ้า",
@@ -197,8 +197,8 @@ export const translations: Record<Locale, Dictionary> = {
     },
     about: {
       title: "เกี่ยวกับฉัน",
-      p1: "ฉันเป็น Software Developer ที่ชอบเรียนรู้เทคโนโลยีใหม่ ๆ แก้ปัญหาที่ท้าทาย และพัฒนาสกิลอย่างต่อเนื่อง รับผิดชอบงานของตัวเอง เปิดรับความท้าทายใหม่ ๆ และมุ่งสร้างซอฟต์แวร์ที่เชื่อถือได้ เพื่อส่งมอบคุณค่าจริงให้ผู้ใช้และธุรกิจ",
-      p2: "ฉันเชื่อว่าซอฟต์แวร์ที่ดีไม่จำเป็นต้องซับซ้อน — การคิดให้ชัดเจน พื้นฐานที่แข็งแรง และความใส่ใจต่อผู้ใช้งาน ก็เพียงพอที่จะสร้างสิ่งที่มีค่า",
+      p1: "เพลง เป็น Software Developer ที่สนุกกับการเรียนรู้เทคโนโลยีใหม่ๆ และชอบท้าทายตัวเองด้วยโจทย์ยากๆ เสมอ ให้ความสำคัญกับความรับผิดชอบ เพื่อสร้างซอฟต์แวร์ที่เสถียร เชื่อถือได้ และส่งมอบผลงานที่มีคุณค่าต่อผู้ใช้และธุรกิจจริงๆ",
+      p2: "เพราะเชื่อว่าซอฟต์แวร์ที่ดีไม่จำเป็นต้องซับซ้อน แค่มีวิธีคิดที่ชัดเจน พื้นฐานที่แข็งแรง และความใส่ใจต่อผู้ใช้งาน ก็เพียงพอที่จะสร้างสิ่งที่มีค่าและแก้ปัญหาได้ตรงจุดแล้ว",
       skills: [
         {
           title: "ภาษาโปรแกรม",
@@ -207,7 +207,7 @@ export const translations: Record<Locale, Dictionary> = {
         },
         {
           title: "เฟรมเวิร์ก",
-          description: "React, Next.js, Rails, GIN, Tailwind CSS",
+          description: "React, Next.js, Rails, GO (GIN), Tailwind CSS",
           icon: "layers",
         },
         {
@@ -217,7 +217,7 @@ export const translations: Record<Locale, Dictionary> = {
         },
         {
           title: "คลาวด์ & DevOps",
-          description: "Docker, GCP, Argo CD, PostgreSQL",
+          description: "Docker, GCP, Argo CD, PostgreSQL, MongoDB",
           icon: "cloud",
         },
       ],
@@ -239,7 +239,7 @@ export const translations: Record<Locale, Dictionary> = {
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: [],
+          tags: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
         },
         {
           id: "sx-expo",
@@ -250,7 +250,7 @@ export const translations: Record<Locale, Dictionary> = {
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: [],
+          tags: ["React", "Tailwind CSS", "GO (GIN)", "MongoDB"],
         },
         {
           id: "carbonmice",
@@ -261,7 +261,7 @@ export const translations: Record<Locale, Dictionary> = {
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: [],
+          tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
         },
         {
           id: "ktc",
@@ -272,7 +272,7 @@ export const translations: Record<Locale, Dictionary> = {
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: [],
+          tags: ["Kotlin", "Swift", "Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
         },
       ],
     },
@@ -284,8 +284,8 @@ export const translations: Record<Locale, Dictionary> = {
       location: "กรุงเทพฯ, ประเทศไทย",
     },
     footer: {
-      rights: "© 2026 ปานฟ้า Phathabannaporn (เพลง).",
-      tagline: "สร้างสรรค์ด้วยความอยากรู้และความใส่ใจ",
+      rights: "",
+      tagline: "",
     },
   },
 };
