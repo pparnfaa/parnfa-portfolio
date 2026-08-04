@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Space Grotesk", "Bai Jamjuree", sans-serif;
-  --font-body: "DM Sans", "Sarabun", sans-serif;
+  --font-display: "Space Grotesk", "Noto Sans Thai", sans-serif;
+  --font-body: "DM Sans", "Noto Sans Thai", sans-serif;
 
   /* Color Hunt: #ffc93c #07689f #40a8c4 #a2d5f2 */
   --color-background: #f7fbfe;
@@ -28,8 +28,8 @@
 }
 
 html[data-locale="th"] {
-  --font-display: "Bai Jamjuree", "Space Grotesk", sans-serif;
-  --font-body: "Sarabun", "DM Sans", sans-serif;
+  --font-display: "Noto Sans Thai", "Space Grotesk", sans-serif;
+  --font-body: "Noto Sans Thai", "DM Sans", sans-serif;
 }
 
 @layer base {
