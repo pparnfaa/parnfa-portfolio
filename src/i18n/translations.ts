@@ -264,6 +264,17 @@ export const translations: Record<Locale, Dictionary> = {
           tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
         },
         {
+          id: "carbonmice",
+          role: "Software Developer Intern",
+          period: "ก.ย. 2025 – พ.ย. 2025",
+          title: "CarbonMICE",
+          summary: "ODDS Team",
+          context: "",
+          whatIDid: "",
+          outcome: "",
+          tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
+        },
+        {
           id: "ktc",
           role: "Software Developer",
           period: "พ.ย. 2025 – ปัจจุบัน",
