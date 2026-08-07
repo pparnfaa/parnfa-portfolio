@@ -52,9 +52,9 @@ export function Hero() {
         >
           <div className="animate-float overflow-hidden rounded-3xl border border-border bg-card shadow-card-soft">
             <img
-              src="/avatar-placeholder.jpg"
+              src="/avatar.png"
               alt="Parnfa Phathabannaporn"
-              className="aspect-square w-full object-cover"
+              className="aspect-square w-full object-cover object-[center_38%]"
             />
             <div className="border-t border-border bg-secondary p-5">
               <div className="flex items-center gap-2">
