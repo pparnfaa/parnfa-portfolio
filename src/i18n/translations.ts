@@ -121,29 +121,35 @@ export const translations: Record<Locale, Dictionary> = {
         {
           id: "odt",
           role: "Software Developer Intern",
-          period: "May 2025 – Oct 2025",
+          period: "May 2025 – Jul 2025",
           title: "ODT Training & ODT Event",
           summary: "ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
+          context:
+            "A web platform for showcasing ODT training courses and events, making it easier for users to explore classes and stay updated on ODT activities.",
+          whatIDid:
+            "• Worked as a Software Developer on a Ruby on Rails application.\n• Developed features across the MVC stack.\n• Implemented automated testing to improve software quality.",
+          outcome:
+            "• Contributed to increased course enrollments.\n• Improved awareness and engagement with ODT events.\n• Delivered a reliable and maintainable application.",
           tags: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
         },
         {
           id: "sx-expo",
           role: "Software Developer Intern",
-          period: "May 2025 – Oct 2025",
+          period: "Aug 2025 – Sep 2025",
           title: "SX Expo",
           summary: "Backoffice & Application · ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
+          context:
+            "A Backoffice system for managing SX Expo data and a mobile application for event attendees.",
+          whatIDid:
+            "• Developed both frontend and backend features.\n• Implemented and enhanced features for the Backoffice system and mobile application.",
+          outcome:
+            "• Supported thousands of users during the event.\n• Delivered new features as part of the production release.",
           tags: ["React", "Tailwind CSS", "GO (GIN)", "MongoDB"],
         },
         {
           id: "carbonmice",
           role: "Software Developer Intern",
-          period: "May 2025 – Oct 2025",
+          period: "Sep 2025 – Nov 2025",
           title: "CarbonMICE",
           summary: "ODDS Team",
           context: "",
@@ -233,34 +239,28 @@ export const translations: Record<Locale, Dictionary> = {
         {
           id: "odt",
           role: "Software Developer Intern",
-          period: "พ.ค. 2025 – ต.ค. 2025",
+          period: "พ.ค. 2025 – ก.ค. 2025",
           title: "ODT Training & ODT Event",
           summary: "ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
+          context: "เว็บไซต์สำหรับเผยแพร่หลักสูตรอบรมและกิจกรรมของ ODT เพื่อให้ผู้ใช้งานสามารถค้นหาหลักสูตรและติดตามอีเวนต์ต่าง ๆ ได้สะดวก",
+          whatIDid:
+            "• พัฒนาระบบด้วย Ruby on Rails ในบทบาท Software Developer\n• พัฒนาฟีเจอร์ตามสถาปัตยกรรม MVC\n• เขียน Automated Testing เพื่อเพิ่มคุณภาพของระบบ",
+          outcome:
+            "• ช่วยเพิ่มยอดการสมัครเรียนของหลักสูตร\n• เพิ่มการรับรู้และการมีส่วนร่วมกับกิจกรรมของ ODT\n• ส่งมอบระบบที่มีคุณภาพและดูแลรักษาได้ง่าย",
           tags: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
         },
         {
           id: "sx-expo",
           role: "Software Developer Intern",
-          period: "พ.ค. 2025 – ต.ค. 2025",
+          period: "ส.ค. 2025 – ก.ย. 2025",
           title: "SX Expo",
           summary: "Backoffice & Application · ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
-          tags: ["React", "Tailwind CSS", "GO (GIN)", "MongoDB"],
-        },
-        {
-          id: "carbonmice",
-          role: "Software Developer Intern",
-          period: "พ.ค. 2025 – ต.ค. 2025",
-          title: "CarbonMICE",
-          summary: "ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
+          context:
+            "ระบบ Backoffice สำหรับจัดการข้อมูลภายในงาน SX Expo และ Mobile Application สำหรับผู้เข้าร่วมงาน",
+          whatIDid:
+            "• พัฒนาระบบทั้งฝั่ง Frontend และ Backend\n• พัฒนาและปรับปรุงฟีเจอร์สำหรับ Backoffice และ Mobile Application",
+          outcome:
+            "• รองรับผู้ใช้งานหลายพันคนในช่วงการจัดงาน\n• ส่งมอบฟีเจอร์ใหม่ให้ผู้ใช้งานใน Release นี้",
           tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
         },
         {

@@ -82,7 +82,7 @@ export function Work() {
                     <h4 className="text-sm font-semibold uppercase tracking-wide text-foreground">
                       {label}
                     </h4>
-                    <p className="mt-1 leading-relaxed text-muted-foreground">
+                    <p className="mt-1 whitespace-pre-line leading-relaxed text-muted-foreground">
                       {value || t.work.comingSoon}
                     </p>
                   </div>
