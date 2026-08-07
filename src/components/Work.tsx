@@ -50,7 +50,7 @@ export function Work() {
         {t.work.projects.map((project, index) => (
           <article
             key={project.id}
-            className="grid gap-8 rounded-3xl border border-border bg-card p-6 transition-shadow hover:shadow-[0_20px_50px_-28px_#07689f66] md:grid-cols-12 md:p-8"
+            className="hover:shadow-card-soft grid gap-8 rounded-3xl border border-border bg-card p-6 transition-shadow md:grid-cols-12 md:p-8"
           >
             <div className="md:col-span-5">
               <ProjectVisual index={index} />

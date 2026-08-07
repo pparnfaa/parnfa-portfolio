@@ -1,7 +1,10 @@
 import { useLanguage } from "../i18n/LanguageContext";
+import { useTheme } from "../theme/ThemeContext";
+import { MoonIcon, SunIcon } from "./Icons";
 
 export function Navbar() {
   const { t, locale, toggleLocale } = useLanguage();
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-sm">
@@ -35,6 +38,20 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            aria-label={
+              theme === "light" ? "Switch to dark mode" : "Switch to light mode"
+            }
+            className="inline-flex items-center justify-center rounded-full border border-border bg-card p-2 text-foreground transition-colors hover:bg-secondary"
+          >
+            {theme === "light" ? (
+              <MoonIcon className="h-4 w-4" />
+            ) : (
+              <SunIcon className="h-4 w-4" />
+            )}
+          </button>
           <button
             type="button"
             onClick={toggleLocale}

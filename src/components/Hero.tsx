@@ -32,7 +32,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href="#work"
-              className="inline-flex items-center gap-2 rounded-full bg-sky-deep px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary"
+              className="btn-cta inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-colors"
             >
               {t.hero.viewWork}
               <ArrowRightIcon className="h-4 w-4" />
@@ -50,7 +50,7 @@ export function Hero() {
           className="animate-fade-up md:col-span-5"
           style={{ animationDelay: "120ms" }}
         >
-          <div className="animate-float overflow-hidden rounded-3xl border border-border bg-card shadow-[0_20px_60px_-30px_#07689f73]">
+          <div className="animate-float overflow-hidden rounded-3xl border border-border bg-card shadow-card-soft">
             <img
               src="/avatar-placeholder.jpg"
               alt="Parnfa Phathabannaporn"

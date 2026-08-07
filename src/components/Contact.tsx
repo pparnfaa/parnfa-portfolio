@@ -31,7 +31,7 @@ export function Contact() {
           </p>
           <a
             href={`mailto:${EMAIL}`}
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-sky-deep px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary"
+            className="btn-cta mt-6 inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-colors"
           >
             {t.contact.emailCta}
           </a>
