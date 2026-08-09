@@ -196,7 +196,7 @@ export function Work() {
     <section id="work" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
       <div className="mb-10 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-light text-sky-deep">
+          <div className="icon-chip flex h-10 w-10 items-center justify-center rounded-xl">
             <BriefcaseIcon className="h-5 w-5" />
           </div>
           <h2 className="font-display text-3xl font-bold tracking-tight text-foreground">

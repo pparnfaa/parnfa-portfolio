@@ -138,6 +138,16 @@ html[data-theme="dark"] {
     box-shadow: 0 20px 50px -28px color-mix(in srgb, var(--color-sky-deep) 40%, transparent);
   }
 
+  .icon-chip {
+    background: var(--color-sky-deep);
+    color: #ffffff;
+  }
+
+  html[data-theme="dark"] .icon-chip {
+    background: var(--color-sky-light);
+    color: var(--color-sky-deep);
+  }
+
   .btn-cta {
     background: var(--color-sky-deep);
     color: #ffffff;

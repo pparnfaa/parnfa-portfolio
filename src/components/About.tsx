@@ -21,7 +21,7 @@ export function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
       <div className="mb-8 flex items-center gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-light text-sky-deep">
+        <div className="icon-chip flex h-10 w-10 items-center justify-center rounded-xl">
           <UserIcon className="h-5 w-5" />
         </div>
         <h2 className="font-display text-3xl font-bold tracking-tight text-foreground">
@@ -42,7 +42,7 @@ export function About() {
             const Icon = skillIcons[skill.icon];
             return (
               <div key={skill.title} className="flex items-start gap-3">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-sky-light text-sky-deep">
+                <div className="icon-chip flex h-10 w-10 shrink-0 items-center justify-center rounded-xl">
                   <Icon className="h-5 w-5" />
                 </div>
                 <div>

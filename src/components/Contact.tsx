@@ -19,7 +19,7 @@ export function Contact() {
       <div className="grid gap-8 rounded-3xl border border-border bg-secondary p-8 md:grid-cols-12 md:p-10">
         <div className="md:col-span-7">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-sky-light text-sky-deep">
+            <div className="icon-chip flex h-10 w-10 items-center justify-center rounded-xl">
               <MailIcon className="h-5 w-5" />
             </div>
             <h2 className="font-display text-3xl font-bold tracking-tight text-foreground">
