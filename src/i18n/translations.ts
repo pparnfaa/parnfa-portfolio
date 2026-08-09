@@ -175,7 +175,7 @@ export const translations: Record<Locale, Dictionary> = {
           context:
             "A carbon management and assessment platform by PEA for the MICE industry, enabling event organizers to calculate and track greenhouse gas emissions for each event, with a real-time dashboard.",
           whatIDid:
-            "• Primarily developed the frontend according to the client's provided designs.",
+            "• Developed both frontend and backend, with most of the work on the frontend according to the client's provided designs.",
           outcome:
             "• Enabled event organizers to calculate each event's carbon footprint.\n• When emissions exceeded the set limit, organizers could purchase carbon credits to offset them.",
           tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
@@ -311,7 +311,7 @@ export const translations: Record<Locale, Dictionary> = {
           context:
             "ระบบบริหารจัดการและประเมินคาร์บอนสำหรับอุตสาหกรรม MICE ของ PEA ที่ช่วยให้ผู้จัดอีเวนต์คำนวณและติดตามการปล่อยก๊าซเรือนกระจกของแต่ละงานได้ พร้อม Dashboard แบบ real-time",
           whatIDid:
-            "• พัฒนาฝั่ง Frontend เป็นหลัก ตามดีไซน์ที่ลูกค้าออกแบบมาให้",
+            "• พัฒนาทั้งฝั่ง Frontend และ Backend โดยส่วนใหญ่ทำ Frontend ตามดีไซน์ที่ลูกค้าออกแบบมาให้",
           outcome:
             "• ผู้จัดอีเวนต์สามารถคำนวณคาร์บอนฟุตพริ้นต์ของงานได้\n• เมื่อคาร์บอนเกินขอบเขตที่กำหนด สามารถซื้อคาร์บอนเครดิตเพื่อชดเชยได้",
           tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
