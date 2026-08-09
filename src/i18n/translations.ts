@@ -166,9 +166,12 @@ export const translations: Record<Locale, Dictionary> = {
           period: "Nov 2025 – Present",
           title: "Krungthai Card (KTC)",
           summary: "Client project · Mobile Application · ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
+          context:
+            "Features in KTC Mobile that help customers use their credit cards conveniently and apply for cards on their own — including promotion enrollment via WebView, an affiliate flow for KTC agents, and self-service card applications for existing customers.",
+          whatIDid:
+            "• Worked full stack across backend, frontend, and deployment.\n• Primarily developed the mobile frontend for both iOS and Android.\n• Contributed to backend microservices.",
+          outcome:
+            "• Enabled customers to apply for credit cards and promotions self-service in KTC Mobile.\n• Supported KTC agents through an affiliate enrollment flow.\n• Delivered end-to-end features spanning mobile apps and microservices.",
           tags: ["Kotlin", "Swift", "GO (GIN)", "PostgreSQL"],
         },
       ],
@@ -286,9 +289,12 @@ export const translations: Record<Locale, Dictionary> = {
           period: "พ.ย. 2025 – ปัจจุบัน",
           title: "Krungthai Card (KTC)",
           summary: "โปรเจกต์ลูกค้า · Mobile Application · ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
+          context:
+            "พัฒนาฟีเจอร์ใน KTC Mobile เพื่อให้ลูกค้าใช้งานบัตรเครดิตและสมัครบัตรได้ด้วยตนเอง รวมถึงการสมัครโปรโมชันผ่าน WebView, ระบบ Affiliate สำหรับ Agent ของ KTC และการให้ลูกค้าเดิมสมัครบัตรเพิ่มได้ด้วยตนเอง",
+          whatIDid:
+            "• ทำงานแบบ Full Stack ทั้ง Backend, Frontend และการ Deploy\n• พัฒนาฝั่ง Mobile Frontend เป็นหลักทั้ง iOS และ Android\n• พัฒนา Backend ในรูปแบบ Microservice",
+          outcome:
+            "• ลูกค้าสามารถสมัครบัตรและโปรโมชันได้ด้วยตนเองผ่าน KTC Mobile\n• รองรับ Agent ของ KTC ผ่านระบบ Affiliate\n• ส่งมอบฟีเจอร์แบบ end-to-end ครอบคลุมทั้ง Mobile App และ Microservice",
           tags: ["Kotlin", "Swift", "GO (GIN)", "PostgreSQL"],
         },
       ],
