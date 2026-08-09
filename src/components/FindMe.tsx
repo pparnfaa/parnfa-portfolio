@@ -28,16 +28,16 @@ export function FindMe() {
           href={GITHUB}
           target="_blank"
           rel="noreferrer"
-          className="group flex items-center gap-4 rounded-3xl border border-border bg-card p-6 transition-colors hover:border-sky-deep hover:bg-sky-deep hover:text-white"
+          className="flex items-center gap-4 rounded-3xl border border-border bg-card p-6 text-foreground transition-colors hover:bg-secondary"
         >
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-sky-light text-sky-deep transition-colors group-hover:bg-white/15 group-hover:text-white">
+          <div className="icon-chip flex h-12 w-12 shrink-0 items-center justify-center rounded-xl">
             <GithubIcon className="h-6 w-6" />
           </div>
           <div>
             <h3 className="font-display text-lg font-semibold tracking-tight">
               GitHub
             </h3>
-            <p className="mt-0.5 text-sm text-muted-foreground transition-colors group-hover:text-white/80">
+            <p className="mt-0.5 text-sm text-muted-foreground">
               github.com/pparnfaa
             </p>
           </div>
@@ -47,16 +47,16 @@ export function FindMe() {
           href={LINKEDIN}
           target="_blank"
           rel="noreferrer"
-          className="group flex items-center gap-4 rounded-3xl border border-border bg-card p-6 transition-colors hover:border-sky-deep hover:bg-sky-deep hover:text-white"
+          className="flex items-center gap-4 rounded-3xl border border-border bg-card p-6 text-foreground transition-colors hover:bg-secondary"
         >
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-sky-light text-sky-deep transition-colors group-hover:bg-white/15 group-hover:text-white">
+          <div className="icon-chip flex h-12 w-12 shrink-0 items-center justify-center rounded-xl">
             <LinkedinIcon className="h-6 w-6" />
           </div>
           <div>
             <h3 className="font-display text-lg font-semibold tracking-tight">
               LinkedIn
             </h3>
-            <p className="mt-0.5 text-sm text-muted-foreground transition-colors group-hover:text-white/80">
+            <p className="mt-0.5 text-sm text-muted-foreground">
               Parnfa Phathabannaporn
             </p>
           </div>

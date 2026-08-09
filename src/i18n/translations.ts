@@ -204,7 +204,7 @@ export const translations: Record<Locale, Dictionary> = {
       about: "เกี่ยวกับ",
       work: "ผลงาน",
       contact: "ติดต่อ",
-      findMe: "หาฉันเจอ",
+      findMe: "ช่องทางอื่น",
       sayHi: "ทักทาย",
     },
     hero: {
@@ -314,12 +314,12 @@ export const translations: Record<Locale, Dictionary> = {
     contact: {
       title: "ติดต่อกัน",
       description:
-        "มีโปรเจกต์น่าสนใจ หรืออยากคุยเรื่องการสร้างซอฟต์แวร์ ส่งข้อความมาได้เลย ฉันยินดีรับฟัง",
+        "สนใจร่วมงานหรืออยากคุยกัน ติดต่อมาได้เลยนะคะ ยินดีมาก ๆ เลยค่ะ",
       emailCta: "ส่งอีเมล",
       location: "กรุงเทพฯ, ประเทศไทย",
     },
     findMe: {
-      title: "หาฉันเจอ",
+      title: "ช่องทางอื่น",
       description:
         "ดูโค้ดบน GitHub หรือเชื่อมต่อกันบน LinkedIn ได้เลย",
     },
