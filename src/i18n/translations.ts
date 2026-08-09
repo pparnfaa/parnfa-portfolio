@@ -192,7 +192,7 @@ export const translations: Record<Locale, Dictionary> = {
     findMe: {
       title: "Find me",
       description:
-        "Follow along on GitHub for code, or connect with me on LinkedIn.",
+        "Code on GitHub, connect on LinkedIn, or see my lifestyle on Instagram.",
     },
     footer: {
       rights: "",
@@ -321,7 +321,7 @@ export const translations: Record<Locale, Dictionary> = {
     findMe: {
       title: "ช่องทางอื่น",
       description:
-        "ดูโค้ดบน GitHub หรือเชื่อมต่อกันบน LinkedIn ได้เลย",
+        "ดูโค้ดบน GitHub เชื่อมต่อบน LinkedIn หรือดู lifestyle บน Instagram ได้เลย",
     },
     footer: {
       rights: "",
