@@ -37,22 +37,19 @@ export function About() {
           </p>
         </div>
 
-        <div className="grid gap-4 md:col-span-5">
+        <div className="grid gap-5 md:col-span-5">
           {t.about.skills.map((skill) => {
             const Icon = skillIcons[skill.icon];
             return (
-              <div
-                key={skill.title}
-                className="flex items-start gap-4 rounded-2xl border border-border bg-card p-4 transition-colors hover:bg-sky-light/35"
-              >
-                <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-sky-light text-sky-deep">
+              <div key={skill.title} className="flex items-start gap-3">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-sky-light text-sky-deep">
                   <Icon className="h-5 w-5" />
-                </span>
+                </div>
                 <div>
-                  <h3 className="font-display font-semibold text-foreground">
+                  <h3 className="font-display text-lg font-semibold tracking-tight text-foreground">
                     {skill.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="mt-0.5 text-sm text-muted-foreground">
                     {skill.description}
                   </p>
                 </div>
