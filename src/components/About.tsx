@@ -3,6 +3,7 @@ import type { Skill } from "../i18n/translations";
 import {
   CloudIcon,
   CodeIcon,
+  GraduationCapIcon,
   LayersIcon,
   PhoneIcon,
   UserIcon,
@@ -17,6 +18,7 @@ const skillIcons: Record<Skill["icon"], typeof CodeIcon> = {
 
 export function About() {
   const { t } = useLanguage();
+  const { school, degree, period, honors, label } = t.about.education;
 
   return (
     <section id="about" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
@@ -31,6 +33,27 @@ export function About() {
 
       <div className="grid gap-6 md:grid-cols-12">
         <div className="rounded-3xl border border-border bg-card p-7 md:col-span-7">
+          <div className="mb-6 border-b border-border pb-6">
+            <div className="mb-3 flex items-center gap-2">
+              <GraduationCapIcon className="h-4 w-4 text-sky-deep" />
+              <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground">
+                {label}
+              </h3>
+            </div>
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+              <div>
+                <p className="font-display text-lg font-semibold tracking-tight text-foreground">
+                  {school}
+                </p>
+                <p className="mt-0.5 text-sm text-muted-foreground">{degree}</p>
+                <p className="mt-2 text-sm font-medium text-sky-deep">{honors}</p>
+              </div>
+              <span className="shrink-0 text-sm text-muted-foreground sm:pt-0.5">
+                {period}
+              </span>
+            </div>
+          </div>
+
           <p className="text-lg leading-relaxed text-foreground">{t.about.p1}</p>
           <p className="mt-4 leading-relaxed text-muted-foreground">
             {t.about.p2}

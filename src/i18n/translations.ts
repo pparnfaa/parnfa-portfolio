@@ -42,6 +42,13 @@ type Dictionary = {
     p1: string;
     p2: string;
     skills: Skill[];
+    education: {
+      label: string;
+      school: string;
+      degree: string;
+      period: string;
+      honors: string;
+    };
   };
   work: {
     title: string;
@@ -115,6 +122,13 @@ export const translations: Record<Locale, Dictionary> = {
           icon: "cloud",
         },
       ],
+      education: {
+        label: "Education",
+        school: "Silpakorn University",
+        degree: "Bachelor of Computer Science",
+        period: "2022 – 2025",
+        honors: "GPA 3.57 (Second-Class Honors)",
+      },
     },
     work: {
       title: "Selected Work",
@@ -245,6 +259,13 @@ export const translations: Record<Locale, Dictionary> = {
           icon: "cloud",
         },
       ],
+      education: {
+        label: "การศึกษา",
+        school: "มหาวิทยาลัยศิลปากร",
+        degree: "วิทยาศาสตรบัณฑิต สาขาวิทยาการคอมพิวเตอร์",
+        period: "2565 – 2568",
+        honors: "GPA 3.57 (เกียรตินิยมอันดับสอง)",
+      },
     },
     work: {
       title: "ผลงานเด่น",
