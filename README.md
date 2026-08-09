@@ -1,75 +1,54 @@
-# React + TypeScript + Vite
+# ✨ Parnfa's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+พอร์ตโฟลิโอของ **Parnfa Phathabannaporn (Pleng)** ☁️
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech ที่ใช้
 
-## React Compiler
+| เครื่องมือ | ใช้ทำอะไร |
+| --- | --- |
+| React 19 | UI |
+| TypeScript | type safety |
+| Vite | dev & build |
+| Tailwind CSS v4 | สไตล์ |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## รันโปรเจกต์
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```bash
+# ติดตั้ง dependencies
+npm install
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# เปิดโหมดพัฒนา
+npm run dev
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# build สำหรับ production
+npm run build
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+# ดูผลหลัง build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+เปิดลิงก์ที่ Vite แสดงในเทอร์มินัลได้เลย (โดยปกติคือ `http://localhost:5173`)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## โครงสร้างแบบย่อ
 
 ```
+src/
+├── components/   # Hero, About, Work, Contact, Navbar, …
+├── i18n/         # แปลภาษาไทย–อังกฤษ
+├── theme/        # light / dark + sky atmosphere
+├── App.tsx
+└── main.tsx
+```
+
+---
+
+## ติดต่อ
+
+- GitHub: [pparnfaa](https://github.com/pparnfaa)
+- Repo: [parnfa-portfolio](https://github.com/pparnfaa/parnfa-portfolio)
