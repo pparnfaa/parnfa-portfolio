@@ -36,6 +36,12 @@ export function Navbar() {
           >
             {t.nav.contact}
           </a>
+          <a
+            href="#find-me"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            {t.nav.findMe}
+          </a>
         </nav>
 
         <div className="flex items-center gap-3">

@@ -23,6 +23,7 @@ type Dictionary = {
     about: string;
     work: string;
     contact: string;
+    findMe: string;
     sayHi: string;
   };
   hero: {
@@ -57,6 +58,10 @@ type Dictionary = {
     emailCta: string;
     location: string;
   };
+  findMe: {
+    title: string;
+    description: string;
+  };
   footer: {
     rights: string;
     tagline: string;
@@ -69,6 +74,7 @@ export const translations: Record<Locale, Dictionary> = {
       about: "About",
       work: "Work",
       contact: "Contact",
+      findMe: "Find me",
       sayHi: "Say hi",
     },
     hero: {
@@ -183,6 +189,11 @@ export const translations: Record<Locale, Dictionary> = {
       emailCta: "Email me",
       location: "Bangkok, Thailand",
     },
+    findMe: {
+      title: "Find me",
+      description:
+        "Follow along on GitHub for code, or connect with me on LinkedIn.",
+    },
     footer: {
       rights: "",
       tagline: "",
@@ -193,6 +204,7 @@ export const translations: Record<Locale, Dictionary> = {
       about: "เกี่ยวกับ",
       work: "ผลงาน",
       contact: "ติดต่อ",
+      findMe: "หาฉันเจอ",
       sayHi: "ทักทาย",
     },
     hero: {
@@ -305,6 +317,11 @@ export const translations: Record<Locale, Dictionary> = {
         "มีโปรเจกต์น่าสนใจ หรืออยากคุยเรื่องการสร้างซอฟต์แวร์ ส่งข้อความมาได้เลย ฉันยินดีรับฟัง",
       emailCta: "ส่งอีเมล",
       location: "กรุงเทพฯ, ประเทศไทย",
+    },
+    findMe: {
+      title: "หาฉันเจอ",
+      description:
+        "ดูโค้ดบน GitHub หรือเชื่อมต่อกันบน LinkedIn ได้เลย",
     },
     footer: {
       rights: "",

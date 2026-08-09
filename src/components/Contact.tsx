@@ -1,15 +1,7 @@
 import { useLanguage } from "../i18n/LanguageContext";
-import {
-  GithubIcon,
-  LinkedinIcon,
-  MailIcon,
-  MapPinIcon,
-} from "./Icons";
+import { MailIcon, MapPinIcon } from "./Icons";
 
 const EMAIL = "pleng.parnfa@gmail.com";
-const GITHUB = "https://github.com/pparnfaa";
-const LINKEDIN =
-  "https://www.linkedin.com/in/parnfa-phathabannaporn-270192339/";
 
 export function Contact() {
   const { t } = useLanguage();
@@ -54,27 +46,6 @@ export function Contact() {
               <span className="text-sm font-medium text-foreground">
                 {t.contact.location}
               </span>
-            </div>
-
-            <div className="grid grid-cols-2 gap-3">
-              <a
-                href={GITHUB}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center justify-center gap-2 rounded-2xl border border-border bg-card p-3 text-sm font-medium text-foreground transition-colors hover:bg-sky-deep hover:text-white"
-              >
-                <GithubIcon className="h-4 w-4" />
-                <span className="hidden sm:inline">GitHub</span>
-              </a>
-              <a
-                href={LINKEDIN}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center justify-center gap-2 rounded-2xl border border-border bg-card p-3 text-sm font-medium text-foreground transition-colors hover:bg-sky-deep hover:text-white"
-              >
-                <LinkedinIcon className="h-4 w-4" />
-                <span className="hidden sm:inline">LinkedIn</span>
-              </a>
             </div>
           </div>
         </div>

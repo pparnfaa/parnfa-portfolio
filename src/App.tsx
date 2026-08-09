@@ -1,5 +1,6 @@
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import { FindMe } from "./components/FindMe";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
@@ -21,6 +22,7 @@ function App() {
               <About />
               <Work />
               <Contact />
+              <FindMe />
             </main>
             <Footer />
           </div>
