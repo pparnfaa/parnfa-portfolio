@@ -54,7 +54,7 @@ export function Hero() {
             <img
               src="/avatar.png"
               alt="Parnfa Phathabannaporn"
-              className="aspect-square w-full object-cover object-[center_38%]"
+              className="aspect-square w-full object-cover object-center"
             />
             <div className="border-t border-border bg-secondary p-5">
               <div className="flex items-center gap-2">
