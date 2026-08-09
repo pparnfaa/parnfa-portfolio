@@ -1,6 +1,6 @@
 import { useLanguage } from "../i18n/LanguageContext";
 import { useTheme } from "../theme/ThemeContext";
-import { MoonIcon, SunIcon } from "./Icons";
+import { CuteCloudIcon, MoonIcon, SunIcon } from "./Icons";
 
 export function Navbar() {
   const { t, locale, toggleLocale } = useLanguage();
@@ -11,9 +11,10 @@ export function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a
           href="#top"
-          className="font-display text-2xl font-bold tracking-tight text-sky-deep transition-opacity hover:opacity-80"
+          aria-label="Pleng"
+          className="inline-flex text-sky-deep transition-opacity hover:opacity-80"
         >
-          Pleng
+          <CuteCloudIcon className="h-11 w-12" />
         </a>
 
         <nav className="hidden items-center gap-8 text-sm font-medium md:flex">

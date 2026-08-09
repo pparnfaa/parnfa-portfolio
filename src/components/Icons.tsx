@@ -66,6 +66,35 @@ export function CloudIcon({ className }: IconProps) {
   );
 }
 
+export function CuteCloudIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 32 28" fill="none" aria-hidden>
+      <path
+        d="M8.2 22.5h16.4c3.1 0 5.4-2.4 5.4-5.2 0-2.6-1.9-4.8-4.5-5.3A7.2 7.2 0 0 0 12.2 6.2c-3.4 0-6.2 2.4-6.9 5.6A4.8 4.8 0 0 0 2 16.5c0 3.3 2.8 6 6.2 6Z"
+        fill="#ffffff"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      {/* blush */}
+      <ellipse cx="11" cy="17" rx="2" ry="1.2" fill="#ff8fab" opacity="0.9" />
+      <ellipse cx="21" cy="17" rx="2" ry="1.2" fill="#ff8fab" opacity="0.9" />
+      {/* eyes */}
+      <circle cx="12.4" cy="14.2" r="1.25" fill="#06466d" />
+      <circle cx="19.6" cy="14.2" r="1.25" fill="#06466d" />
+      <circle cx="12.8" cy="13.85" r="0.4" fill="white" />
+      <circle cx="20" cy="13.85" r="0.4" fill="white" />
+      {/* smile */}
+      <path
+        d="M14.1 17.5c.75 1 3 1 3.8 0"
+        stroke="#06466d"
+        strokeWidth="1.25"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
 export function UserIcon({ className }: IconProps) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" aria-hidden>
