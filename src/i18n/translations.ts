@@ -167,7 +167,7 @@ export const translations: Record<Locale, Dictionary> = {
           title: "Krungthai Card (KTC)",
           summary: "Client project · Mobile Application · ODDS Team",
           context:
-            "Features in KTC Mobile that help customers use their credit cards conveniently and apply for cards on their own — including promotion enrollment via WebView, an affiliate flow for KTC agents, and self-service card applications for existing customers.",
+            "Features in KTC Mobile that help customers use their credit cards conveniently and apply for cards on their own, including promotion enrollment via WebView, an affiliate flow for KTC agents, and self-service card applications for existing customers.",
           whatIDid:
             "• Worked full stack across backend, frontend, and deployment.\n• Primarily developed the mobile frontend for both iOS and Android.\n• Contributed to backend microservices.",
           outcome:
