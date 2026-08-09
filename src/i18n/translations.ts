@@ -137,7 +137,7 @@ export const translations: Record<Locale, Dictionary> = {
           role: "Software Developer Intern",
           period: "Aug 2025 – Sep 2025",
           title: "SX Expo",
-          summary: "Backoffice & Application · ODDS Team",
+          summary: "Client project · Backoffice & Application · ODDS Team",
           context:
             "A Backoffice system for managing SX Expo data and a mobile application for event attendees.",
           whatIDid:
@@ -151,10 +151,13 @@ export const translations: Record<Locale, Dictionary> = {
           role: "Software Developer Intern",
           period: "Sep 2025 – Nov 2025",
           title: "CarbonMICE",
-          summary: "ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
+          summary: "Client project · Web Application · ODDS Team",
+          context:
+            "A carbon management and assessment platform by PEA for the MICE industry, enabling event organizers to calculate and track greenhouse gas emissions for each event, with a real-time dashboard.",
+          whatIDid:
+            "• Primarily developed the frontend according to the client's provided designs.",
+          outcome:
+            "• Enabled event organizers to calculate each event's carbon footprint.\n• When emissions exceeded the set limit, organizers could purchase carbon credits to offset them.",
           tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
         },
         {
@@ -162,11 +165,11 @@ export const translations: Record<Locale, Dictionary> = {
           role: "Software Developer",
           period: "Nov 2025 – Present",
           title: "Krungthai Card (KTC)",
-          summary: "Client project · ODDS Team",
+          summary: "Client project · Mobile Application · ODDS Team",
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: ["Kotlin", "Swift", "Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
+          tags: ["Kotlin", "Swift", "GO (GIN)", "PostgreSQL"],
         },
       ],
     },
@@ -254,7 +257,7 @@ export const translations: Record<Locale, Dictionary> = {
           role: "Software Developer Intern",
           period: "ส.ค. 2025 – ก.ย. 2025",
           title: "SX Expo",
-          summary: "Backoffice & Application · ODDS Team",
+          summary: "โปรเจกต์ลูกค้า · Backoffice & Application · ODDS Team",
           context:
             "ระบบ Backoffice สำหรับจัดการข้อมูลภายในงาน SX Expo และ Mobile Application สำหรับผู้เข้าร่วมงาน",
           whatIDid:
@@ -268,10 +271,13 @@ export const translations: Record<Locale, Dictionary> = {
           role: "Software Developer Intern",
           period: "ก.ย. 2025 – พ.ย. 2025",
           title: "CarbonMICE",
-          summary: "ODDS Team",
-          context: "",
-          whatIDid: "",
-          outcome: "",
+          summary: "โปรเจกต์ลูกค้า · Web Application · ODDS Team",
+          context:
+            "ระบบบริหารจัดการและประเมินคาร์บอนสำหรับอุตสาหกรรม MICE ของ PEA ที่ช่วยให้ผู้จัดอีเวนต์คำนวณและติดตามการปล่อยก๊าซเรือนกระจกของแต่ละงานได้ พร้อม Dashboard แบบ real-time",
+          whatIDid:
+            "• พัฒนาฝั่ง Frontend เป็นหลัก ตามดีไซน์ที่ลูกค้าออกแบบมาให้",
+          outcome:
+            "• ผู้จัดอีเวนต์สามารถคำนวณคาร์บอนฟุตพริ้นต์ของงานได้\n• เมื่อคาร์บอนเกินขอบเขตที่กำหนด สามารถซื้อคาร์บอนเครดิตเพื่อชดเชยได้",
           tags: ["Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
         },
         {
@@ -279,11 +285,11 @@ export const translations: Record<Locale, Dictionary> = {
           role: "Software Developer",
           period: "พ.ย. 2025 – ปัจจุบัน",
           title: "Krungthai Card (KTC)",
-          summary: "โปรเจกต์ลูกค้า · ODDS Team",
+          summary: "โปรเจกต์ลูกค้า · Mobile Application · ODDS Team",
           context: "",
           whatIDid: "",
           outcome: "",
-          tags: ["Kotlin", "Swift", "Next.js", "Tailwind CSS", "GO (GIN)", "PostgreSQL"],
+          tags: ["Kotlin", "Swift", "GO (GIN)", "PostgreSQL"],
         },
       ],
     },
